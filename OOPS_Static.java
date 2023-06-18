@@ -1,27 +1,30 @@
 public class OOPS_Static {
     public static void main(String[] args) {
-        Student student1 = new Student();
-        student1.schoolName = "NSV";
+       Mobile mobile1 = new Mobile();
+       mobile1.brand = "Vivo";
+       mobile1.price = 22000;
+       Mobile.name = "SmartPhone";
 
-        Student student2 = new Student();
-        System.out.println(student2.schoolName);
+       Mobile mobile2 = new Mobile();
+       mobile2.brand = "Redmi";
+       mobile2.price = 17900;
+       Mobile.name = "SmartPhone";
+
+       System.out.println(mobile1);
+       System.out.println(mobile2);
     }
 }
 
-class Student {
-    String name;
-    int roll;
-    static int returnPercentage(int math, int phy, int chem) {
-        return (math+phy+chem)/3;
-    }
-    
-    static String schoolName;
+class Mobile {
+    String brand;
+    int price;
+    /**
+     * Static variable
+     */
+    static String name;
 
-    void setName(String name) {
-        this.name = name;
-    }
-
-    String getName() {
-        return this.name;
+    @Override
+    public String toString() {
+        return "Mobile [brand=" + brand + ", price=" + price + ", name=" + name + "]";
     }
 }
