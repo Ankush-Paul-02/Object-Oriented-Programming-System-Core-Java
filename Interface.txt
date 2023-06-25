@@ -1,0 +1,16 @@
+There are 3 types of Interfaces.
+
+
+Interfaces ---->
+
+    Normal Interface: 
+        With 2 or more methods.
+
+
+    Functional Interface(SAM):
+        SAM = Single abstract method.
+        With only 1 method.
+
+
+    Marker Interface:
+        Which has no method.
