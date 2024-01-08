@@ -45,8 +45,8 @@ public class ExceptionHandling {
          */
 
         int i = 19, j = 0;
-        int arr[] = new int[5];
-        String str = null;
+        // int arr[] = new int[5];
+        // String str = null;
 
         try {
             j = 8 / i;

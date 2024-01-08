@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Input {
+    static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
 
         /**
@@ -39,7 +41,6 @@ public class Input {
          */
 
         System.out.println("Enter a number: ");
-        Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         System.out.println(num);
 

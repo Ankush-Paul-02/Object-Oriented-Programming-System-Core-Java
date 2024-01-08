@@ -48,6 +48,8 @@ public class EnumJava {
                 System.out.println("Ohh no!! I'm failed.");
                 break;
             // ! And so on
+            default:
+                break;
         }
 
         /**

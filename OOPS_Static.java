@@ -1,4 +1,4 @@
-public class OOPS_STATIC {
+public class OOPS_Static {
 
     /**
      * If we make main static then we haven't made the Object of OOPS_STATIC
